@@ -14,4 +14,4 @@
 end
 
 def word_substituter(tweets)
-  
+  tweets.split.collect(tweets)
