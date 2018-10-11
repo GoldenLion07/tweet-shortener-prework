@@ -1,4 +1,4 @@
-5def dictionary
+def dictionary
   dictionary = {
     "hello" => "hi",
     "to" => "2", 
