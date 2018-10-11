@@ -25,6 +25,9 @@ def word_substituter(tweet)
 	words_to_be_shortened.join(" ")
 end
 
+def bulk_tweet_shortener
+  
+  
 def shortened_tweet_truncator(tweet)
   shortened_tweet = word_substituter(tweet)
   if shortened_tweet.length >= 140
