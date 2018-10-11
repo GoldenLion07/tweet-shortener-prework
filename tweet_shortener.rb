@@ -20,6 +20,8 @@ def word_substituter(tweets)
       if tweet == word 
         tweet = reduced_word
       end
-      final_word = tweet
+      final_word = twee
     end 
     puts tweet
+  end
+end
