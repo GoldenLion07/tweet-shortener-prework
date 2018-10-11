@@ -13,15 +13,14 @@ def dictionary
   }
 end
 
-def word_substituter(tweets)
-  tweets.split.collect do |tweet|
-    final_tweet = []
-    dictionary.each do |word, reduced_word|
-      if tweet == word 
-        tweet = reduced_word
-      end
-      final_word = twee
-    end 
-    puts tweet
-  end
+
+def word_substituter(tweet)
+	words_to_be_shortened = tweet.split.collect do |word|
+		if dictionary.keys.include?(word.downcase)
+			word = dictionary[word.downcase]
+		else
+			word
+		end
+	end
+	words_to_be_shortened.join(" ")
 end
