@@ -15,3 +15,5 @@ end
 
 def word_substituter(tweets)
   tweets.split.collect do |tweet|
+    final_tweet = []
+    
