@@ -1,4 +1,4 @@
-def dictionary
+5def dictionary
   dictionary = {
     "hello" => "hi",
     "to" => "2", 
@@ -13,3 +13,4 @@ def dictionary
   }
 end
 
+def word_substitutor
