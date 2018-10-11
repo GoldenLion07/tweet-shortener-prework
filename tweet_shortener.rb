@@ -13,4 +13,5 @@
   }
 end
 
-def word_substitutor
+def word_substituter(tweets)
+  
