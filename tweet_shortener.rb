@@ -19,4 +19,5 @@ def word_substituter(tweets)
     dictionary.each do |word, reduced_word|
       if tweet == word 
         tweet = reduced_word
-        
+      end
+      final_word = twee
